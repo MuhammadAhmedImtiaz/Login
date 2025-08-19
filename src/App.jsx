@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Login/>
+    {/* <Login/> */}
     {/* <Router>
       <Link to ="/signup">
       <button>Sign Up</button>
