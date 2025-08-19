@@ -9,14 +9,15 @@ function App() {
   return (
     <>
     <Login/>
-    <Router>
+    {/* <Router>
       <Link to ="/signup">
       <button>Sign Up</button>
       </Link>
       <Routes>
         <Route path="/" element={<Signup/>}></Route>
       </Routes>
-      </Router>
+      </Router> */}
+      <Signup/>
 
 
     </>
