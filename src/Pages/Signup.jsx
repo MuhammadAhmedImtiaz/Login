@@ -25,7 +25,7 @@ const Signup = () => {
             <button className='text-white bg-orange-500 py-6 px-3 rounded-md flex'>SIGN UP</button>
         </div>
         </div>
-        <div className='flex w-1/2 bg-orange-500 text-white justify-centent items-center   flex-col p-8 space-y-6 '>
+        <div className='flex w-1/2 bg-orange-500 text-white justify-center items-center   flex-col p-8 space-y-6 '>
           <h1 className='block text-3xl font-bold '>Welcome Back!</h1>
           <p className='block text-xl py-5'>To keep connected with us please login with your personal info</p>
           <div>
