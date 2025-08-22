@@ -7,7 +7,7 @@ const Home = () => {
       <div className='flex flex-col w-1/2'>
       <div className='relative'>
       <img src={Background_Img} className='absolute z-0' alt="" />
-      <h1 className='text-3xl font-bold relative uppercase  text-black border'>Lets's</h1>
+      <h1 className='text-3xl font-bold relative uppercase  text-black '>Lets's</h1>
       <h1 className='text-3xl font-bold relative uppercase'>Explore</h1>
       <h1 className='text-3xl font-bold relative uppercase'>Unique</h1>
       <h1 className='text-3xl font-bold relative uppercase'>Clothes</h1>

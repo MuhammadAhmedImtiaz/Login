@@ -5,6 +5,8 @@ import Signup from './Pages/Signup.jsx'
 import Home from './Pages/Hero.jsx' 
 import Navbar from "./Pages/Navbar.jsx"
 import Footer from './Pages/Footer.jsx'
+import Products from './Pages/Products.jsx'
+import Products2 from './Pages/Products2.jsx'
 import { Routes, Router ,Route } from "react-router"
 function App() {
   
@@ -17,7 +19,8 @@ function App() {
       <Route path="/Home" element={<Home/>}/>
       <Route path="/Navbar" element={<Navbar/>}/>
       <Route path="/Footer" element={<Footer/>}/>
-
+      <Route path="/Products" element={<Products/>}/>
+      <Route path="/Products2" element={<Products2/>}/>
     </Routes>
     </>
   )
