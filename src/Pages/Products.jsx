@@ -36,11 +36,11 @@ const Products = () => {
         
         
   return (
-    <div>
+    <div className="container grid grid-cols-2">
       
       {loading && <p>Loading Products</p>}
       {error && <p>Error:{error}</p>}
-      <div className="container grid  grid-cols-3">
+      <div className="">
      
       {products.map(product=>(
         <div key={product.id} className='product-card rounded-xl hover:scale-105 shadow-lg px-4 py-4 gap-9    
@@ -52,9 +52,6 @@ const Products = () => {
         
 
         </div>
-
-        
-      
 
       ))}
       
