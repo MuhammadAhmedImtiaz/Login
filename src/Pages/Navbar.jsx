@@ -11,13 +11,14 @@ const Navbar = () => {
     </div>
     <ul className='flex items-center justify-end px-110 font-bold gap-9 ml-10 w-1/3'>
         <li ><a className='uppercase list-none hover:text-gray-400' href="">Catalogue</a></li>
+        <li className='bg-black text-white uppercase px-2 py-2 whitespace-nowrap  '> Sign Up</li>
         <li className='uppercase list-none hover:text-gray-400'>Fashion</li>
         <li className='uppercase list-none hover:text-gray-400'>Favourite</li>
         <li className='uppercase list-none hover:text-gray-400'>lifestyle</li>
-        <li className='bg-black text-white uppercase px-2 py-2 whitespace-nowrap  '> Sign Up</li>
         </ul>
         <div className='flex w-1/3 gap-9 py-6 '>
-        <CiFacebook className='text-5xl' />
+        <a href="https://www.google.com/search?q=facebook+sign+in&oq=&gs_lcrp=EgZjaHJvbWUqGAgAEAAYQhiRAhi0AhjqAhiABBiMBBiKBTIYCAAQABhCGJECGLQCGOoCGIAEGIwEGIoFMhgIARAAGEIYkQIYtAIY6gIYgAQYjAQYigUyGAgCEAAYQhiRAhi0AhjqAhiABBiMBBiKBTIYCAMQABhCGJECGLQCGOoCGIAEGIwEGIoFMhUIBBAuGEMYtAIY6gIYgAQYjAQYigUyFwgFEAAYQhhDGLQCGOoCGIAEGIwEGIoFMgYIBhBFGEDSAQoxMDMxNjNqMGo5qAIGsAIB8QXrUPXWDgrApg&sourceid=chrome&ie=UTF-8"><CiFacebook className='text-5xl' /></a>
+        
         <FaInstagram className='text-5xl' />
         <FaTwitter className='text-5xl' />
         </div>

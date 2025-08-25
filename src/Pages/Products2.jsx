@@ -47,8 +47,8 @@ const Products2 = () => {
           <img src={product.image} alt="" className='h-90 ' />
           <h1 className='text-red-700 text-4xl p-8'>{product.title}</h1>
           <p className='text-red-400  p-8 font-extrabold'>${product.price}</p>
-          <p className='p-3'>{product.description}</p>
-          <button className='text-red-500 rounded-2xl p-5 border border-green-700 hover:bg-red-950 hover:text-white text-xl font-bold '>Buy Now</button>
+          <p className='text-orange-600 p-3'>{product.description}</p>
+          <button text={"BUY NOW"} className='text-red-500 rounded-2xl p-5 border border-green-700 hover:bg-red-950 hover:text-white text-xl font-bold '></button>
         </div>
       ))                                                                                
     }
