@@ -9,6 +9,7 @@ import Products from './Pages/Products.jsx'
 import Products2 from './Pages/Products2.jsx'
 import { Routes, Router ,Route } from "react-router"
 import ProductDetails from "./Pages/ProductDetails.jsx"
+import ProductCard from "./Pages/ProductCard.jsx"
 function App() {
   
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/Products" element={<Products/>}/>
       <Route path="/Products2" element={<Products2/>}/>
       <Route path="/ProductDetails"element={<ProductDetails/>}/>
+      <Route path="/ProductCard" element={<ProductCard />}/>
     </Routes>
     </>
   )

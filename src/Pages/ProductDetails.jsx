@@ -40,12 +40,12 @@ const ProductDetails = () => {
     <div className='container flex'>
         {
             products.map((data=>
-            <div className='flex gap-4 p-9 ' >
+            <div className='flex  p-9 ' >
                 <img src={data.image} alt={data.description} className=' w-1/2 shadow xl '/>
             <div className=' w-1/2 text-center px-20 items-center gap-9 '>
                <h1 className='text-6xl font-bold p-9 m-9 leading-loose tracking-wide'>{data.title}</h1>
                 <p className='font-bold '>${data.price}</p>
-                <div className='flex flex-col  text-lg text-left gap-4 m-9'>
+                <div className='flex flex-col  text-lg text-left gap-4 m-9 items-center'>
                 <input type="checkbox" name="" id="" />
                 <label className='flex items-center gap-2' for="">One-Time Purchase</label>
                 <input type="checkbox" name="" id="" />
@@ -54,16 +54,16 @@ const ProductDetails = () => {
                
                 <p className='m-9 text-lg'>{data.description}</p>
                 <div className='flex flex-row space-x-6'>
-                <Button className='flex items-center' text={"BUY "}  />
-                <div className='flex gap-9 m-6 p-9 text-xl border-1 border-black '>
+                <Button className='flex items-center h-50 w-50' text={"BUY "}  />
+                <div className='flex items-center justify-between border border-black px-4 py-2 w-40 text-xl'>
                 
-                <div className='flex items-start '>
+               
                     <button onClick={()=>setQuantity(quantity > 1 ? quantity-1:1)}>-</button>
-                    <span className='flex space-x-1.5 items-center justify-center'>{quantity}</span>
-                </div>
-                <div className='flex justify-end items-end space-x-3  '>
+                    <span className='flex items-center justify-center'>{quantity}</span>
+                
+                
                     <button onClick={()=>setQuantity(quantity+1)}>+</button>
-                </div>
+               
                 </div>
                 
                 </div>
